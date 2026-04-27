@@ -1,50 +1,84 @@
 💰 Personal Finance Tracker (MERN)
-🚀 Features
-Authentication (JWT + Refresh Token)
 
-Income & Expense Tracking
+A full-stack Personal Finance Tracker built with the MERN stack to manage income, expenses, and budgets with secure authentication and an interactive dashboard.
 
-Budget Management with Alerts
+### 🚀 Features
 
-Category Management
+🔐 JWT Authentication (Access + Refresh Tokens)
+💵 Track Income & Expenses
+📊 Budget Management with Alerts
+🗂 Category Management
+📈 Interactive Dashboard with Charts
 
-Interactive Dashboard (Charts)
+### 🛠 Tech Stack
 
-🛠 Tech Stack
-React + Redux Toolkit
+Layer	Technology
+Frontend	React, Redux Toolkit, Tailwind CSS
+Backend	Node.js, Express.js
+Database	MongoDB Atlas
 
-Node.js + Express
+### 📂 Project Structure
 
-MongoDB Atlas
+Finance_Tracker_Application/
+│
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── middleware/
+│   └── server.js
+│
+├── frontend/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   └── store/
+│
+└── README.md
 
-⚙️ Setup Instructions
-1. Clone Repo
+### ⚙️ Installation & Setup
+
+1️⃣ Clone Repository
+
 git clone https://github.com/DilakshanMadhusanka/Finance_Tracker_Application.git
+cd Finance_Tracker_Application
 
-2. Backend Setup
+2️⃣ Backend Setup
+
 cd backend
 npm install
 
-Create .env:
-MONGO_URI=mongodb+srv://madhusankamrd_db_user:JwNoFtmR7chUfoOg@cluster0.mq3bbks.mongodb.net/?appName=Cluster0
-JWT_ACCESS_SECRET=1d86bb934e0dc13081c583c43e3d915705c09691adba3f05117a74f7dfbea4a42758afa7740ef46a8655b701b58f9b619ca4d624365ceb090924232b335e3933
-JWT_REFRESH_SECRET=acfef040f498397f2a66b6c33638fcf4ba9b69d880beae75b005f71d631ad49edd949823b17b92460bdbf62334c60a4f9f97fffb1e3b5eef1eeea26c901d77ee
+### Create a .env file:
+
+MONGO_URI=your_mongodb_connection_string
+JWT_ACCESS_SECRET=your_access_secret
+JWT_REFRESH_SECRET=your_refresh_secret
+
+### Run backend:
 
 npm run dev
 
-3. Frontend Setup
+3️⃣ Frontend Setup
+
 cd frontend
 npm install
 npm start
 
-🌐 API Endpoints
-Auth
-POST /api/auth/register
-POST /api/auth/login
+### 🌐 API Endpoints
 
-Transactions
-GET /api/transactions
-POST /api/transactions
+🔐 Authentication
 
-Budgets
-GET /api/budgets
+Method	Endpoint	Description
+POST	/api/auth/register	Register user
+POST	/api/auth/login	Login user
+
+💳 Transactions
+
+Method	Endpoint	Description
+GET	/api/transactions	Get transactions
+POST	/api/transactions	Add transaction
+
+📊 Budgets
+
+Method	Endpoint	Description
+GET	/api/budgets	Get budgets
