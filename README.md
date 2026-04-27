@@ -1,4 +1,4 @@
-💰 Personal Finance Tracker (MERN)
+# 💰 Personal Finance Tracker (MERN)
 
 A full-stack Personal Finance Tracker built with the MERN stack to manage income, expenses, and budgets with secure authentication and an interactive dashboard.
 
