@@ -8,14 +8,14 @@ A full-stack Personal Finance Tracker built with the MERN stack to manage income
 💵 Track Income & Expenses \
 📊 Budget Management with Alerts \
 🗂 Category Management \
-📈 Interactive Dashboard with Charts \
+📈 Interactive Dashboard with Charts
 
 ### 🛠 Tech Stack
 
 Layer	Technology \
 Frontend	React, Redux Toolkit, Tailwind CSS \
 Backend	Node.js, Express.js \
-Database	MongoDB Atlas \
+Database	MongoDB Atlas 
 
 ### 📂 Project Structure
 
@@ -66,19 +66,19 @@ npm start
 
 ### 🌐 API Endpoints
 
-🔐 Authentication \
+🔐 Authentication 
 
 Method	Endpoint	Description \
 POST	/api/auth/register	Register user \
-POST	/api/auth/login	Login user \
+POST	/api/auth/login	Login user 
 
-💳 Transactions\
+💳 Transactions
 
 Method	Endpoint	Description \
 GET	/api/transactions	Get transactions \
-POST	/api/transactions	Add transaction \
+POST	/api/transactions	Add transaction 
 
-📊 Budgets \
+📊 Budgets 
 
 Method	Endpoint	Description \
 GET	/api/budgets	Get budgets
