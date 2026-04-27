@@ -19,22 +19,62 @@ Database	MongoDB Atlas
 
 ### 📂 Project Structure
 
-Finance_Tracker_Application/
+```
+finance-tracker/
 │
 ├── backend/
+│   ├── config/
+│   │   └── db.js
+│   │
 │   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── transactionController.js
+│   │   ├── budgetController.js
+│   │   └── categoryController.js
+│   │
 │   ├── models/
+│   │   ├── User.js
+│   │   ├── Transaction.js
+│   │   ├── Budget.js
+│   │   └── Category.js
+│   │
 │   ├── routes/
+│   │   ├── authRoutes.js
+│   │   ├── transactionRoutes.js
+│   │   ├── budgetRoutes.js
+│   │   └── categoryRoutes.js
+│   │
 │   ├── middleware/
+│   │   └── authMiddleware.js
+│   │
 │   └── server.js
 │
 ├── frontend/
 │   ├── src/
-│   ├── components/
-│   ├── pages/
-│   └── store/
-│
-└── README.md
+│   │   ├── api/
+│   │   │   └── axios.js
+│   │   │
+│   │   ├── context/
+│   │   │   ├── AuthContext.js
+│   │   │   └── AppContext.js
+│   │   │
+│   │   ├── components/
+│   │   │   └── layout/
+│   │   │       ├── Layout.jsx
+│   │   │       ├── Sidebar.jsx
+│   │   │       └── Navbar.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Transactions.jsx
+│   │   │   ├── Budgets.jsx
+│   │   │   ├── Categories.jsx
+│   │   │   ├── Login.jsx
+│   │   │   └── Register.jsx
+│   │   │
+│   │   ├── App.js
+│   │   └── index.js
+```
 
 ### ⚙️ Installation & Setup
 
