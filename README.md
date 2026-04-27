@@ -4,18 +4,18 @@ A full-stack Personal Finance Tracker built with the MERN stack to manage income
 
 ### 🚀 Features
 
-🔐 JWT Authentication (Access + Refresh Tokens)
-💵 Track Income & Expenses
-📊 Budget Management with Alerts
-🗂 Category Management
-📈 Interactive Dashboard with Charts
+🔐 JWT Authentication (Access + Refresh Tokens) \
+💵 Track Income & Expenses \
+📊 Budget Management with Alerts \
+🗂 Category Management \
+📈 Interactive Dashboard with Charts \
 
 ### 🛠 Tech Stack
 
-Layer	Technology
-Frontend	React, Redux Toolkit, Tailwind CSS
-Backend	Node.js, Express.js
-Database	MongoDB Atlas
+Layer	Technology \
+Frontend	React, Redux Toolkit, Tailwind CSS \
+Backend	Node.js, Express.js \
+Database	MongoDB Atlas \
 
 ### 📂 Project Structure
 
@@ -40,18 +40,18 @@ Finance_Tracker_Application/
 
 1️⃣ Clone Repository
 
-git clone https://github.com/DilakshanMadhusanka/Finance_Tracker_Application.git
+git clone https://github.com/DilakshanMadhusanka/Finance_Tracker_Application.git \
 cd Finance_Tracker_Application
 
 2️⃣ Backend Setup
 
-cd backend
+cd backend \
 npm install
 
 ### Create a .env file:
 
-MONGO_URI=your_mongodb_connection_string
-JWT_ACCESS_SECRET=your_access_secret
+MONGO_URI=your_mongodb_connection_string \
+JWT_ACCESS_SECRET=your_access_secret \
 JWT_REFRESH_SECRET=your_refresh_secret
 
 ### Run backend:
@@ -60,25 +60,25 @@ npm run dev
 
 3️⃣ Frontend Setup
 
-cd frontend
-npm install
+cd frontend \
+npm install \
 npm start
 
 ### 🌐 API Endpoints
 
-🔐 Authentication
+🔐 Authentication \
 
-Method	Endpoint	Description
-POST	/api/auth/register	Register user
-POST	/api/auth/login	Login user
+Method	Endpoint	Description \
+POST	/api/auth/register	Register user \
+POST	/api/auth/login	Login user \
 
-💳 Transactions
+💳 Transactions\
 
-Method	Endpoint	Description
-GET	/api/transactions	Get transactions
-POST	/api/transactions	Add transaction
+Method	Endpoint	Description \
+GET	/api/transactions	Get transactions \
+POST	/api/transactions	Add transaction \
 
-📊 Budgets
+📊 Budgets \
 
-Method	Endpoint	Description
+Method	Endpoint	Description \
 GET	/api/budgets	Get budgets
